@@ -10,10 +10,11 @@
 
 @protocol ScrollPageViewDatasource;
 @protocol ScrollPageViewDelegate;
+@class ScrollView;
 
 @interface ScrollPageView : UIView <UIScrollViewDelegate>
 {
-    UIScrollView    *_scrollView;
+    ScrollView      *_scrollView;
     NSMutableArray  *_pages;
     NSInteger        _currentPage;
     NSInteger        _rCurrentPage;

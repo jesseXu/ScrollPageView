@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88068C83163E27D20072FEEE /* ScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88068C82163E27D20072FEEE /* ScrollView.m */; };
 		88951F81160BFF2C004195C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88951F80160BFF2C004195C3 /* UIKit.framework */; };
 		88951F83160BFF2C004195C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88951F82160BFF2C004195C3 /* Foundation.framework */; };
 		88951F85160BFF2C004195C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88951F84160BFF2C004195C3 /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88068C81163E27D20072FEEE /* ScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollView.h; sourceTree = "<group>"; };
+		88068C82163E27D20072FEEE /* ScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollView.m; sourceTree = "<group>"; };
 		88951F7C160BFF2C004195C3 /* PageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88951F80160BFF2C004195C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		88951F82160BFF2C004195C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -116,6 +119,8 @@
 			children = (
 				88951FA4160BFF4C004195C3 /* ScrollPageView.h */,
 				88951FA5160BFF4C004195C3 /* ScrollPageView.m */,
+				88068C81163E27D20072FEEE /* ScrollView.h */,
+				88068C82163E27D20072FEEE /* ScrollView.m */,
 			);
 			name = ScrollPageView;
 			path = ../../../ScrollPageView;
@@ -191,6 +196,7 @@
 				88951F91160BFF2C004195C3 /* AppDelegate.m in Sources */,
 				88951F9A160BFF2C004195C3 /* ViewController.m in Sources */,
 				88951FA6160BFF4C004195C3 /* ScrollPageView.m in Sources */,
+				88068C83163E27D20072FEEE /* ScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +312,7 @@
 				88951FA2160BFF2C004195C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

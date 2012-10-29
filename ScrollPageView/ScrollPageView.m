@@ -7,6 +7,7 @@
 //
 
 #import "ScrollPageView.h"
+#import "ScrollView.h"
 
 #define kBufferSize 3
 
@@ -35,7 +36,7 @@
     self = [super initWithFrame:frame];
     if (self) {
     
-        _scrollView = [[UIScrollView alloc] initWithFrame:CGRectZero];
+        _scrollView = [[ScrollView alloc] initWithFrame:CGRectZero];
         _scrollView.delegate = self;
         _scrollView.pagingEnabled = YES;
         _scrollView.clipsToBounds = NO;
